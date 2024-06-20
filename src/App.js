@@ -122,7 +122,7 @@ const App = () => {
       <Typography variant="h6" style={{ color: 'white', fontFamily: 'Arial', fontSize: '28px', fontWeight: 'bold' }}>
         React Dashboard
       </Typography>
-      <Toolbar style={{ backgroundColor: '#337a1b', color: 'white', margin:'1px' , borderRadius:'60px',boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.7)', left:'20%'}}>
+      <Toolbar style={{ backgroundColor: '#a4b89e', color: 'white', margin:'1px' , borderRadius:'60px',boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.7)', left:'%', height:'2px'}}>
       <Typography variant="h6" style={{ color: 'white', fontFamily: 'Arial', fontSize: '20px', fontWeight: 'bold' }}>
         TOTAL USERS: {totalUsers}
       </Typography>
@@ -141,44 +141,44 @@ const App = () => {
           </Grid>
           <Grid item xs={4} style={{ height: '2%' }}></Grid>
           <Grid item xs={4} style={{ height: '20%' }}></Grid>
-          <Grid item xs={12} sm={6} md={4} lg={2.7} style={{ marginTop: '-100px', marginLeft:'30px' }}>
+          <Grid item xs={12} sm={6} md={4} lg={2.7} style={{ marginTop: '-130px', marginLeft:'30px' }}>
           <Paper style={{ padding: '13px', height: '60%', borderRadius:'40px' ,boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.2)'}}>
               <Typography variant="h7" gutterBottom>Telecom Risk Pie Chart</Typography>
               {data.length > 0 && <TelecomRiskPieChart data={data} />}
             </Paper>
           </Grid>
-          <Grid item xs={12} sm={5} md={4} lg={3} style={{ marginTop: '-110px', padding:'10px' }} >
+          <Grid item xs={12} sm={5} md={4} lg={3} style={{ marginTop: '-140px', padding:'10px' }} >
           <Paper style={{ padding: '20px', height: '80%', borderRadius:'40px',boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.2)'  }}>
               <Typography variant="h7" gutterBottom>Source Distribution</Typography>
               {sourceData.length > 0 && <SourceDistributionChart data={sourceData} />}
             </Paper>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={3} style={{ marginTop: '-110px', padding:'9px' }}>
+          <Grid item xs={12} sm={6} md={4} lg={3} style={{ marginTop: '-140px', padding:'10px' }}>
           <Paper style={{ padding: '10px', height: '120%', borderRadius:'40px' ,boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.2)' }}>
               <Typography variant="h7" gutterBottom>Phone Network Distribution</Typography>
               {phoneNetworkData.length > 0 && <PhoneNetworkPieChart data={phoneNetworkData} />}
             </Paper>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={2.9} style={{ marginTop: '-100px' }}>
-          <Paper style={{ padding: '10px', height: '60%', borderRadius:'40px' ,boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.2)' }}>
+          <Grid item xs={12} sm={6} md={4} lg={2.9} style={{ marginTop: '-130px' }}>
+          <Paper style={{ padding: '16px', height: '60%', borderRadius:'40px' ,boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.2)' }}>
               <Typography variant="h7" gutterBottom>Billing Type Distribution</Typography>
               {billingTypeData.length > 0 && <BillingTypeDonutChart data={billingTypeData} />}
             </Paper>
           </Grid>
-          <Grid item xs={12} sm={4} md={4} lg={2.7} style={{ marginTop: '-170px',  marginLeft:'30px' }}>
-          <Paper style={{ padding: '10px', height: '80%' , borderRadius:'40px' ,boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.2)'}}>
+          <Grid item xs={12} sm={4} md={4} lg={2.7} style={{ marginTop: '-175px',  marginLeft:'30px' }}>
+          <Paper style={{ padding: '10px', height: '75%' , borderRadius:'40px' ,boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.2)'}}>
               <Typography variant="h7" gutterBottom>Top Social Sites</Typography>
               {topSocialSitesData.length > 0 && <TopSocialSitesColumnChart data={topSocialSitesData} />}
             </Paper>
           </Grid>
           <Grid item xs={12} sm={6} md={4} lg={2.85}  style={{ marginTop: '-90px',  marginLeft:'10px' }}>
-          <Paper style={{ padding: '4px', height: '70%' , borderRadius:'40px' ,boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.2)'}}>
+          <Paper style={{ padding: '14px', height: '70%' , borderRadius:'40px' ,boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.2)'}}>
               <Typography variant="h7" gutterBottom>Reachable vs Non-Reachable</Typography>
               <ReachablePieChart />
             </Paper>
           </Grid>
           <Grid item xs={12} sm={6} md={4} lg={2.9} style={{ boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)', marginTop: '-180px', marginLeft: '394px' }}>
-          <Paper style={{ padding: '10px', height: '100%' , borderRadius:'40px' ,boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.5)'}}>
+          <Paper style={{ padding: '10px', height: '75%' , borderRadius:'40px' ,boxShadow: '0 4px 4px 0 rgba(255, 255, 255, 0.5)'}}>
               <Typography variant="h7" gutterBottom>Identity Confidence Distribution</Typography>
               <IdentityConfidencePieChart />
             </Paper>
