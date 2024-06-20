@@ -1,3 +1,9 @@
+UI:
+![image](https://github.com/pranati20/react-dashboard/assets/101969910/ffc81ce2-76b5-4a21-b362-0da819df7e89)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -61,8 +67,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-UI:
-![image](https://github.com/pranati20/react-dashboard/assets/101969910/443e52b6-2ec5-415d-b207-1bd46d5ada14)
 
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
